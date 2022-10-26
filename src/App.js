@@ -21,7 +21,7 @@ export default class WeatherApp extends React.Component {
                 <input type="submit" value="search" class="button" />
               </div>
             </div>
-            <div class="col-4 board-today">
+            <div className="col-4 board-today">
               <div className="city">KRAKÓW</div>
               <div className="date">sunday 10/10/21</div>
               <div className="time">18:45</div>
@@ -30,12 +30,12 @@ export default class WeatherApp extends React.Component {
               </div>
             </div>
             <div className="col-4 today-parameters">
-              <div class="humidity">
+              <div className="humidity">
                 HUMIDITY
                 <br />
-                <p class="value">56%</p>
+                <p className="value">56%</p>
               </div>
-              <div class="wind">
+              <div className="wind">
                 WIND
                 <br />
                 <p className="value">10km/h</p>
@@ -69,10 +69,9 @@ export default class WeatherApp extends React.Component {
                   <div className="day">Thursday</div>
                   <div className="forecast-temerature">7/2°C</div>
                 </div>
-                <div className="col-2">
-                  <div className="day">Friday</div>
-                  <div className="forecast-temerature">1/-1°C</div>
-                </div>
+
+                <div className="day">Friday</div>
+                <div className="forecast-temerature">1/-1°C</div>
               </div>
             </div>
           </div>
