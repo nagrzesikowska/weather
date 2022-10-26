@@ -69,17 +69,15 @@ export default class WeatherApp extends React.Component {
                   <div className="day">Thursday</div>
                   <div className="forecast-temerature">7/2°C</div>
                 </div>
-
-                <div className="day">Friday</div>
-                <div className="forecast-temerature">1/-1°C</div>
+                <div className="col-2">
+                  <div className="day">Friday</div>
+                  <div className="forecast-temerature">1/-1°C</div>
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <a href="https://github.com/nagrzesikowska/weather-app">
-              {" "}
-              Open-source code
-            </a>
+            <a>Open-source code</a>
             <a> by Natalia Grzesikowska</a>
           </div>
         </div>
